@@ -3,8 +3,8 @@
   --outer-space: #c8f7c2;
   --light-purple: #9a7eb9;
   --gin: #cbe7dc;
-  --purple: #7248a8;
-  --background-color: #25c072;
+  --purple: #573880;
+  --background-color: #aaf3cf;
      }
    
    /* Text */s
@@ -60,7 +60,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(../images/rockOn_dark.jpg);
+  background-image: url(../images/02-portfolio-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
@@ -69,21 +69,113 @@ p {
   justify-content: center;
 }
 
+
+/* Jumbotron copy */
+.jumboCopy img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  ;
+}
+.jumboCopy, .jumboCopy p {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: rgb(203, 240, 196);
+  text-align: center;
+  background-color: rgba(31, 56, 54, 0.468);
+  margin:120px auto 0px auto;
+}
+
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
-
-/* Jumbotron copy */
-.jumboCopy {
-  width: 70%;
-  min-width: 500px;
-  max-width: 700px;
-  color: white;
-  text-align: center;
+.lead {
+  font-size: 2rem;
+  font-weight: 300;
 }
 
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--background-color);
+  background-clip: border-box;
+  border: 1px solid rgba(2, 20, 20, 0.125);
+  border-radius: .25rem;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.workProjects {
+  padding: 0px 30px 30px 30px;
+}
+
+.work{
+
+}
+.sectionHeading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#mainGrid {
+  /*   margin: 0px 0%;
+    display: flex;
+    min-height: 210px;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 40% 60%; */
+    flex: 85%;
+}
+#parent_div{
+  display: flex;
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.flex-container {
+  max-width: 127px;
+}
+.flex-container {
+  display: flex;
+  background-color: rgb(118, 205, 216);
+  flex-direction: column;
+}
+  .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+  border: 1px solid black;
+}
+#about {
+    
+  background-color: var(--gin);
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: space-evenly;
+  font-stretch: normal;
+}
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
 .dropdown-menu {
   left: -97px;

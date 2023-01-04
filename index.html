@@ -8,103 +8,173 @@
   <!-- Bootstrap CSS v4.3 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
   <link rel="stylesheet" href="./css/styles.css">
 
   <title>Marilena's Bootstrap-Portfolio</title>
 </head>
 
 <body>
-  <!-- Navigation bar -->
+  <!-- Navigation bar created uing Bootstrap's navbar -->
   <nav class="navbar navbar-light bg-light"></nav>
   <!-- Use navbar-brand to specify project name, add Image and text-->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-        <a class="navbar-brand"  href="#">
-          <img src="./Images/user.png" width="30" height="30" class="d-inline-block align-top" alt=""> My Bootstrap project
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <a class="navbar-brand" href="#">
+      <img src="./Images/user.png" width="30" height="30" class="d-inline-block align-top" alt=""> My Bootstrap project
     </a>
-     <!-- Paste Navigation Code Below  -->
-     <!-- Codefor use with collapse plugin and other navigation toggling behaviors-->
+    <!-- Paste Navigation Code Below  -->
+    <!-- Codefor use with collapse plugin and other navigation toggling behaviors-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-  </button>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-    </li>
-   <!-- Add dropdown menu for work, to be able to select projects withing 'Work' secction -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">Work
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Student Bio</a>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <!-- Add dropdown menu for work, to be able to select projects withing 'Work' secction -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Student Bio</a>
             <a class="dropdown-item" href="#">Horiseon</a>
-        <a class="dropdown-item" href="#">Furniture</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Skills</a>
-    </li>
-    <li class="nav-item">
-      <a class = "nav-link" href="#">Resources</a></li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul>
-</div>
-</nav>
-<!-- End navigation bar -->
+            <a class="dropdown-item" href="#">Furniture</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End navigation bar -->
 
-   <!-- Jumbotron Code featuring my picture, name and info about me -->
+  <!-- Jumbotron Code featuring my picture, name and info about me -->
+
   <div class="jumbotron">
-    <h1 class="display-4">Hi everyone and welcome to my portfolio page :-)!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component featuring my picture, name and
-      information about me.</p>
-    <hr class="my-4">
-    <br>
-    <h3>My name is Marilena and I am studying Fron-End Web Development and User Experience through the Skills Bootcamp run
-      by University of Birmingham and edx.</h3> <br>
-    <br>
-       
-    <div class="icons">
-      <img src="./Images/8-13_resize.jpg" width="180" height="180"> 
+    <div class="jumboCopy">
+      <img src="./Images/8-13_resize.jpg" width="185" height="195">
+      <h1 class="display-4">Marilena Cancel</h1>
+      <br>
+      <p class="lead">
+        Hi everyone and welcome to my Bootstrap portfolio page!
+        <br>
+        This section is a simple hero unit, a simple jumbotron-style component featuring my picture, name and
+        information about me
+      </p>
+    </div>
+
+
+   
   </div>
-    <a class="btn btn-primary btn-lg" href="#learn-more" role="button">Learn more</a>
-  </div>
-   <div id="learn-more"> 
-     <h4>I have done a couple of projects which helped me understand the basics of HTML CSS, Git and Bootstrap and I can't wait to learn
-    more and improve my skills.</h4>
-   </div>
-  
   <!-- End jumbotron -->
-    <!-- Add columns, rows, and cards below -->
-
-    <!-- Add form group below -->
-    
-
-    <!-- Modal -->
-    <!-- Footer html-->
-    <footer>
-      <span>Thanks for visiting!</span>
-
-      <div class="footer">
-          <a href="https://github.com/Marilena-C" class="gh" target="blank">GitHub</a>
-          <a href="mailto:marilena.cancel@gmail.com">Contact email</a>
-          <a href="#" class="fb">Facebook</a>
-          <a href="#" class="tw">Twitter</a>
-          <a href="#" class="ig">Instagram</a>
+  <!-- Add work section - columns, rows, and cards below -->
+  <div class="container-fluid content" id="work">
+    <h2 class="sectionHeading">WORK</h2>
+    <div class="row workProjects">
+      <!-- Card 1 - Horiseon-->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./images/Horizon1.png" class="card-img-top" alt="horiseon, seo, marketing website">
+          <div class="card-body">
+            <h5 class="card-title">Horiseon</h5>
+            <p class="card-text">
+              Horiseon Social Solution Services is a offering Marketing and Search Engine Operation services
+            </p>
+            <a href="https://marilena-c.github.io/horizon-1" target="_blank" class="btn btn-primary">Find out more</a>
+          </div>
+        </div>
       </div>
+      <!-- End card 1 -->
+
+    
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./Images/furniture.jpg" class="card-img-top" alt="Choose your furniture options">
+          <div class="card-body">
+            <h5 class="card-title">Furniture</h5>
+            <p class="card-text">
+              Furniture is a website that offers furnishing inspiration for
+              all sizes of homes
+            </p>
+            <a href="https://github.com/Marilena-C/Furniture/" target="_blank" class="btn btn-primary">Visit
+              Webpage</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+    </div>
+  
+   <!-- Card 3 -->
+   <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    <div class="card">
+      <img src="./Images/screenshot_Deployed.png" class="card-img-top" alt="Choose your furniture options">
+      <div class="card-body">
+        <h5 class="card-title">Furniture</h5>
+        <p class="card-text">
+          Furniture is a website that offers furnishing inspiration for
+          all sizes of homes
+        </p>
+        <a href="https://github.com/Marilena-C/Marilena-Html-Css-Git-Portfolio/" target="_blank" class="btn btn-primary">Visit
+          Webpage</a>
+      </div>
+    </div>
+  </div>
+  <!-- End card 3 -->
+</div>
+</div>
+  <!-- Add form group below -->
+
+<!--About me-->
+<div id="parent_div">
+  <section id="grid_menu">
+      <div id="main" class="flex-container">
+          <div><a href="#about">About me</a></div>
+      </div>
+  </section>
+  <section id="mainGrid">
+      <div id="about">
+  <div class="cardContainer">
+    <h2>I am passionate about technology and I am currently studying Front-End Web Development and User Experience
+      through
+      the Skills Bootcamp run by University of Birmingham and edx.</h2> <br>
+    <h2>I have done a couple of projects which helped me understand the basics of HTML CSS, Git and Bootstrap and I
+      can't
+      wait to learn
+      more and improve my skills.</h2>
+  </div>
+  
+  <!-- Modal -->
+  <!-- Footer html-->
+  <footer>
+    <span>Thanks for visiting!</span>
+
+    <div class="footer">
+      <a href="https://github.com/Marilena-C" class="gh" target="blank">GitHub</a>
+      <a href="mailto:marilena.cancel@gmail.com">Contact email</a>
+      <a href="#" class="fb">Facebook</a>
+      <a href="#" class="tw">Twitter</a>
+      <a href="#" class="ig">Instagram</a>
+    </div>
   </footer>
 </body>
