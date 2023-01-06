@@ -96,6 +96,20 @@ p {
   font-weight: 250;
 }
 
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sectionHeading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -110,12 +124,12 @@ p {
   border-radius: .25rem;
 }
 
-.container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.card {
+  margin: 0 auto;
+}
+
+.cardContainer {
+  margin-top: 20px;
 }
 
 .card-body {
@@ -135,11 +149,47 @@ p {
   padding: 0px 30px 30px 30px;
 }
 
-.sectionHeading {
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
-  padding-bottom: 20px;
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills-item {
+  max-width: 18rem;
+}
+
+.bgnd {
+  background-color: var(--background-color)!important;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.skillsMgBot {
+margin-bottom: 1rem!important;
+}
+
+.font-weight-light {
+  font-weight: 300!important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mb-5 {
+  margin-bottom: 3rem!important;
+}
+
+#parent_div{
+  display: flex;
+  width: 100%;
 }
 
 #mainGrid {
@@ -150,10 +200,7 @@ p {
     grid-template-columns: 40% 60%; */
     flex: 85%;
 }
-#parent_div{
-  display: flex;
-  width: 100%;
-}
+
 main {
   display: flex;
   flex-direction: row;
@@ -198,12 +245,7 @@ footer {
   background-color: #f5f5f5;
   margin-top: 50px;
 }
-.cardContainer {
-  margin-top: 20px;
-}
-.card {
-  margin: 0 auto;
-}
+
 .signUp form {
   margin: 35px auto;
   background-color: #f2f2f2;
