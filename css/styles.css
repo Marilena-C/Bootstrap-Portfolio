@@ -73,27 +73,27 @@ p {
 /* Jumbotron copy */
 .jumboCopy img {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 1px;
   ;
 }
 .jumboCopy, .jumboCopy p {
   width: 70%;
-  min-width: 500px;
+  min-width: 600px;
   max-width: 700px;
   color: rgb(203, 240, 196);
   text-align: center;
   background-color: rgba(31, 56, 54, 0.468);
-  margin:120px auto 0px auto;
+  margin:90px auto 0px auto;
 }
 
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1;
 }
 .lead {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 250;
 }
 
 .card {
@@ -118,13 +118,23 @@ p {
   margin-left: auto;
 }
 
+.card-body {
+   flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
 .workProjects {
   padding: 0px 30px 30px 30px;
 }
 
-.work{
-
-}
 .sectionHeading {
   font-size: 30px;
   font-weight: 700;

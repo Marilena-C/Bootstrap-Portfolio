@@ -10,9 +10,10 @@ The code was created following the required steps described in the Module 3  cha
 The navigation bar at the top of the page contains links that navigates to the specific sections within the page: About, Work, Skills, Contact.
 In the 'Contact' section, the webpage   presents multiple ways to contact me;
 
-# SCreenshots
-Deployed website: Bootstrap-screenshot_Deployed.png
-GitHub repository: Bootstrap-GitHub.png
+# Screenshots
+Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrap-screenshot_Deployed.png 
+
+GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrapscreenshot_GitHub.png
 
 Resources:
 Free pictures:
