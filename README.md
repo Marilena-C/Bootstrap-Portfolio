@@ -16,8 +16,8 @@ Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Im
 GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrapscreenshot_GitHub.png
 
 Resources:
-Free pictures:
-https://unsplash.com/s/photos/
+[Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+Free pictures:https://unsplash.com/s/photos/
 
 Submitted BOTH of the following for review:
 
