@@ -11,7 +11,7 @@ The navigation bar at the top of the page contains links that navigates to the s
 In the 'Contact' section, the webpage   presents multiple ways to contact me;
 
 # Screenshots
-Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrap-screenshot_Deployed.png 
+Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrap_Screenshot_Deployed1.png 
 
 GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrapscreenshot_GitHub.png
 
