@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
+## Bootstrap-Portfolio
 Code Bootstrap Portfolio for Unit 3 Challenge 
 The code was created following the required steps described in the Module 3  challenge instructions.
 1. Created a new GitHub repository called "Bootstrap-Portfolio"
@@ -10,10 +10,10 @@ The code was created following the required steps described in the Module 3  cha
 The navigation bar at the top of the page contains links that navigates to the specific sections within the page: About, Work, Skills, Contact.
 In the 'Contact' section, the webpage   presents multiple ways to contact me;
 
-# Screenshots
+## Screenshots
 Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrap_Screenshot_Deployed1.png 
 
-GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/BootstrapRepo_GitHub.png
+GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/BootstrapRepo_GitHub.jpg
 
 Resources:
 [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
