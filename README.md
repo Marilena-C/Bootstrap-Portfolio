@@ -13,7 +13,7 @@ In the 'Contact' section, the webpage   presents multiple ways to contact me;
 # Screenshots
 Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrap_Screenshot_Deployed1.png 
 
-GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrapscreenshot_GitHub.png
+GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/BootstrapRepo_GitHub.png
 
 Resources:
 [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
