@@ -19,7 +19,7 @@ Resources:
 [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 Free pictures:https://unsplash.com/s/photos/
 
-Submitted BOTH of the following for review:
+## Submitted links:
 
 * The URL of the deployed application: https://marilena-c.github.io/Bootstrap-Portfolio/
 
