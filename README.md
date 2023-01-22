@@ -13,13 +13,13 @@ In the 'Contact' section, the webpage   presents multiple ways to contact me;
 # Screenshots
 Deployed website: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrap_Screenshot_Deployed1.png 
 
-GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/Bootstrapscreenshot_GitHub.png
+GitHub repository: https://github.com/Marilena-C/Bootstrap-Portfolio/blob/main/Images/BootstrapRepo_GitHub.jpg
 
 Resources:
 [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 Free pictures:https://unsplash.com/s/photos/
 
-Submitted BOTH of the following for review:
+## Submitted links:
 
 * The URL of the deployed application: https://marilena-c.github.io/Bootstrap-Portfolio/
 
